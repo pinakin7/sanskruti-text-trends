@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanskruti Text Trends</title>
+    <link rel="icon" href="src/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        .contact-card {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .floating-section {
+            position: relative;
+            animation: floatAnimation 3s ease-in-out infinite;
+        }
+
+        @keyframes floatAnimation {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .map-container {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    </style>
+  </head>
+  <body style="background-color: #068FFF;">
+    <div class="h-100 w-100">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">Sanskruti Text Trends</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/testimonial.html">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/products.html">Products</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+            <!-- Left Section - Contact Details and WhatsApp Button -->
+            <div class="col-md-6 mb-3">
+                <div class="card contact-card floating-section">
+                    <div class="card-body">
+                        <h4 class="card-title">Contact Details <i class="fas fa-phone-alt ml-2 text-primary"></i></h4>
+                        <p class="card-text"><i class="fas fa-map-marker-alt mr-2 text-primary"></i> Address: 6508/10, Rd Number 65-B, GIDC, Sachin, Surat, Gujarat 394230</p>
+                        <p class="card-text"><i class="fas fa-phone-alt mr-2 text-primary"></i> Phone: +919824200041</p>
+                        <p class="card-text"><i class="fas fa-envelope mr-2 text-primary"></i> Email: vimalmviradiya@sanskrutitexttrends.co</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="card contact-card mt-3 floating-section">
+                    <div class="card-body">
+                        <h4 class="card-title">Contact Us <i class="fas fa-envelope ml-2 text-primary"></i></h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- WhatsApp Button -->
+                <div class="card contact-card mt-3 floating-section">
+                    <div class="card-body">
+                        <a href="https://api.whatsapp.com/send?phone=919824200041" target="_blank" class="btn btn-success"><i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Right Section - Google Maps -->
+            <div class="col-md-6 mb-3">
+                <div class="map-container floating-section">
+                    <!-- Replace the "YOUR_GOOGLE_MAPS_EMBED_URL" with the actual URL provided by Google Maps -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.7340130550806!2d72.85551110979125!3d21.083283185824648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be050dc2342b037%3A0x4378c19dfad8ed2a!2sSANSKRUTI%20TEXT%20TRENDS!5e0!3m2!1sen!2sin!4v1690119915570!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

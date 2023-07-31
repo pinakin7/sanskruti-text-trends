@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:https://www.eventbrite.com/e/sgs-fall-2023-graduate-student-orientation-tickets-684813905827
+DTSTART:20230905T130000Z
+DTEND:20230905T220000Z
+SUMMARY:SGS Fall 2023 Graduate Student Orientation
+DESCRIPTION:For details, go here:\nhttps://www.eventbrite.com/e/sgs-fall-2023-graduate-student-orientation-tickets-684813905827
+LOCATION:Chelsea Hotel - 33 Gerrard Street West - Toronto, ON M5G 1Z4 - Canada
+END:VEVENT
+END:VCALENDAR
